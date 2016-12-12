@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Vinay Jallipalli</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style/sty.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>    
+</head>
+
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+  <div class="navbar-header">
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">Me</a>
+  </div>
+
+  <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a  href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#">EDUCATION</a></li>
+        <li><a href="#">SKILLS</a></li>        
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+  	</div>
+  </div>
+</nav>
+<!-- Navbar Ends -->
+
+
+<!-- 1st section -->
+<div id="home" class="container-fluid bg-1 text-center"><br><br><br><br>
+<img src="image/my_pic.jpg" class="img-responsive img-circle" style="display:inline" alt="abc">
+<h2><div id="typewriteText"></div></h2><br><br>
+</div>
+<!-- 1st section Ends -->
+
+
+
+
+<!-- 2nd section -->
+<div id="about" class="container-fluid bg-2 text-center">
+  <h3>What Am I?</h3>
+  <p>Lorem ipsum..</p>  
+   <a href="#" class="btn btn-default btn-lg">
+   <span class="glyphicon glyphicon-search"></span> Search</a>
+</div>
+<!-- 2nd section Ends-->
+
+
+
+<!-- 3rd section -->
+<div class="container-fluid bg-3 text-center " >
+  <h3>Where To Find Me?</h3>
+  <p>Lorem ipsum..</p>
+
+  <div class="row " >
+    <div class="col-sm-4" >
+      <p>Lorem ipsum..</p>
+      <img src="image/birds1.jpg"  class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4" >
+      <p>Lorem ipsum..</p>
+      <img src="image/birds2.jpg"  class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4" > 
+      <p>Lorem ipsum..</p>
+      <img src="image/birds3.jpg" class="img-responsive" style="width:100%"  alt="Image">
+    </div>
+  </div>
+
+</div>
+<!-- 3rd section Ends-->
+
+
+
+<!-- footer section -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Made By Vinay.</p> 
+</footer>
+<!-- Footer section Ends-->
+
+<!--Script starts-->
+<script type="text/javascript" src="java_script/jscode.js"></script>
+<script type="text/javascript" src="java_script/typewrite.js"></script>
+<script >
+$('#typewriteText').typewrite({
+  actions: [
+    {type: '< Hello, '},
+    /* */        
+    {delay: 1500},    
+    {select: {from: 3, to: 8}},
+    {delay: 1000},
+    {remove: {num: 6, type: 'whole'}},
+    {delay: 300},
+    {type: 'ola,'},
+    /* */ 
+    {delay: 1500},    
+    {select: {from: 3, to: 7}},
+    {delay: 1000},
+    {remove: {num: 4, type: 'whole'}},
+    {delay: 300},
+    {type: 'allo, '},
+    /* */
+    {delay: 1500},    
+    {select: {from: 2, to: 8}},
+    {delay: 1000},
+    {remove: {num: 7, type: 'whole'}},
+    {delay: 300},
+    {type: 'Namaste, '},    
+    {type: 'I\'m Vinay Jallipalli. >'}  
+  ]
+});
+</script>
+<!--Script starts Ends-->
+
+</body>
+</html>
