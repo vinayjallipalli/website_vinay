@@ -1,16 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway+Dots);
 @import url(https://fonts.googleapis.com/css?family=Advent+Pro:400,200,700);
-@import url(http://weloveiconfonts.com/api/?family=entypo);
+/*@import url(http://weloveiconfonts.com/api/?family=entypo);
 @import url(http://weloveiconfonts.com/api/?family=fontawesome);
 
-/* entypo */
+/* entypo *//*
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
 }
 
 [class*="fontawesome-"]:before {
   font-family: 'FontAwesome', sans-serif;
-}
+}*/
 
 html, body {
   margin: 0;
