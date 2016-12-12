@@ -49,6 +49,7 @@ p {
 		color: #ffffff;     
 }
 
+
 .bg-2 { 
     background-color: #1abc9c ; /* Dark Blue */
     color: #ffffff;
@@ -60,6 +61,11 @@ p {
 
 .bg-4 { 
     background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+.bg-5 { 
+    background-color: #1abc9c;
     color: #ffffff;
 }
 
