@@ -4,7 +4,7 @@
         var settings = $.extend({
             speed: 12,
             blinkSpeed: 2,
-            showCursor: false,
+            showCursor: true,
             blinkingCursor: true,
             cursor: '|',
             selectedBackground: '#F1F1F1',
