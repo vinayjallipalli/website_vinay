@@ -1,3 +1,7 @@
+
+@import url(https://fonts.googleapis.com/css?family=Raleway+Dots);
+@import url(https://fonts.googleapis.com/css?family=Advent+Pro:400,200,700);
+
 body {
     font: 20px "Montserrat", sans-serif;
     line-height: 1.8;
@@ -53,7 +57,7 @@ p {
 
 
 .bg-2 { 
-    background-color: #1abc9c ; 
+    background-color: #2980b9 ; 
     color: #ffffff;
 }
 .bg-3 { 
@@ -67,20 +71,18 @@ p {
 }
 
 .bg-5 { 
-    background-color: #1abc9c;
+    background-color: #2980b9;
     color: #ffffff;
 }
 .aboutme
 {
 	text-align: justify;
     text-justify: inter-word;
-    padding-left: 100px;
-    padding-right: 100px;    
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 10px;
+    padding-left: 90px;
+    padding-right: 90px;    
+    font-family: 'Nunito Sans', sans-serif;
     color: #000000;
-    line-height: 1.8;
-    letter-spacing: 0.5;
+    line-height: 1.6;    
     font-size: 20px;
 }
 hr{
@@ -107,3 +109,70 @@ hr{
 color:#fff;
 background:#009688;
 }
+
+
+
+/*contact section*/
+
+/*@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* entypo *//*
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}*/
+
+html, body {
+  margin: 0;
+  background-color: #74d4b3;
+}
+
+section #services {
+  text-align: center;
+  transform: translatez(0);
+}
+section #services h2 {
+  padding-top: 0px;
+  color: #000;
+  font-size: 2.4em;
+  font-family: 'Raleway Dots', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+section #services li {
+  width: 120px;
+  height: 140px;
+  display: inline-block;
+  margin: 20px;
+  list-style: none;
+}
+section #services li div {
+  width: 120px;
+  height: 120px;
+  color: #74d4b3;
+  font-size: 3.4em;
+  text-align: center;
+  line-height: 120px;
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+section #services li div:hover {
+  transform: rotate(360deg);
+  border-radius: 100px;
+}
+section #services li span {
+  width: 120px;
+  height: 20px;
+  display: block;
+  padding: 15px 0px;
+  color: #000;
+  font-family: 'Advent Pro', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  text-align: center;
+}
+
