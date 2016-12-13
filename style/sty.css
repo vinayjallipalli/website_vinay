@@ -53,11 +53,11 @@ p {
 
 
 .bg-2 { 
-    background-color: #1abc9c ; /* Dark Blue */
+    background-color: #f1c40f ; 
     color: #ffffff;
 }
 .bg-3 { 
-    background-color: #ffffff; /* White */
+    background-color: #FFFFFF; /* White */
     color: #555555;
 }
 
@@ -67,10 +67,28 @@ p {
 }
 
 .bg-5 { 
-    background-color: #1abc9c;
+    background-color: #f1c40f;
     color: #ffffff;
 }
-
+.aboutme
+{
+	text-align: justify;
+    text-justify: inter-word;
+    padding-left: 100px;
+    padding-right: 100px;    
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 10px;
+    color: #000000;
+    line-height: 1.8;
+    letter-spacing: 0.5;
+    font-size: 20px;
+}
+hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #000, #fff, #000);
+}
 .margin {margin-bottom: 45px;}
 
 /*BUTTONS*/
