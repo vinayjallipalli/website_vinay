@@ -56,22 +56,17 @@ p {
 		color: #ffffff;     
 }
 
-
+/*About, Contact*/
 .bg-2 { 
     background-color: #1abc9c ; 
     color: #ffffff;
 }
-
-
-.bg-4 { 
+/*education and footer*/
+.bg-3 { 
     background-color: #2f2f2f;
     color: #ffffff;
 }
 
-.bg-5 { 
-    background-color: #1abc9c;
-    color: #ffffff;
-}
 .aboutme
 {
 	text-align: justify;
@@ -110,18 +105,18 @@ background:#009688;
 
 
 
-/*Sliding*/
+/* Carousel Sliding*/
 .carousel-control.right, .carousel-control.left {
     background-image: none;
-    color: #2980b9;
+    color: #FFFFFF;
 }
 
 .carousel-indicators li {
-    border-color: #2980b9;
+    border-color:#FFFFFF;
 }
 
 .carousel-indicators li.active {
-    background-color: #2980b9;
+    background-color: #FFFFFF;
 }
 
 .item h4 {
